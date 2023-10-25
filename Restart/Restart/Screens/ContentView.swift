@@ -2,20 +2,18 @@
 //  ContentView.swift
 //  Restart
 //
-//  Created by Erkan Ozturk on 20.10.2023.
+//  Created by Erkan Ozturk on 19.10.2023.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
-    
-    
     var body: some View {
-        ZStack{
-            if isOnboardingViewActive {
+        ZStack {
+           if isOnboardingViewActive {
                 OnboardingView()
-            } else {
+            }else {
                 HomeView()
             }
         }

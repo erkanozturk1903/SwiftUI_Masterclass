@@ -2,7 +2,7 @@
 //  RestartApp.swift
 //  Restart
 //
-//  Created by Erkan Ozturk on 20.10.2023.
+//  Created by Erkan Ozturk on 19.10.2023.
 //
 
 import SwiftUI
