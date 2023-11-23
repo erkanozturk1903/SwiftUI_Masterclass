@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0256BAF42B0EEDE100A0AE95 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0256BAF32B0EEDE100A0AE95 /* ImagePicker.swift */; };
+		02651B6B2B0FFFF0006B5E87 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02651B6A2B0FFFF0006B5E87 /* LoginView.swift */; };
+		02651B6D2B100000006B5E87 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02651B6C2B100000006B5E87 /* RegistrationView.swift */; };
+		02651B6F2B100024006B5E87 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02651B6E2B100024006B5E87 /* ResetPasswordView.swift */; };
+		02651B732B10068B006B5E87 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02651B722B10068B006B5E87 /* CustomTextField.swift */; };
+		02651B752B10069F006B5E87 /* CustomSecuredField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02651B742B10069F006B5E87 /* CustomSecuredField.swift */; };
 		026769912B09B505003037ED /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026769902B09B505003037ED /* SearchBar.swift */; };
 		027D1F1D2B0AF14500D516B3 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D1F1C2B0AF14500D516B3 /* PostGridView.swift */; };
 		027D1F1F2B0AF2FC00D516B3 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D1F1E2B0AF2FC00D516B3 /* UserCell.swift */; };
@@ -32,6 +37,11 @@
 
 /* Begin PBXFileReference section */
 		0256BAF32B0EEDE100A0AE95 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		02651B6A2B0FFFF0006B5E87 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		02651B6C2B100000006B5E87 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		02651B6E2B100024006B5E87 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		02651B722B10068B006B5E87 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		02651B742B10069F006B5E87 /* CustomSecuredField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecuredField.swift; sourceTree = "<group>"; };
 		026769902B09B505003037ED /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		027D1F1C2B0AF14500D516B3 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		027D1F1E2B0AF2FC00D516B3 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
@@ -144,6 +154,8 @@
 			children = (
 				027D1F222B0AF7EF00D516B3 /* Extensions.swift */,
 				0256BAF32B0EEDE100A0AE95 /* ImagePicker.swift */,
+				02651B722B10068B006B5E87 /* CustomTextField.swift */,
+				02651B742B10069F006B5E87 /* CustomSecuredField.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -193,6 +205,9 @@
 		0294D4442B0931CC00D118BA /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				02651B6A2B0FFFF0006B5E87 /* LoginView.swift */,
+				02651B6C2B100000006B5E87 /* RegistrationView.swift */,
+				02651B6E2B100024006B5E87 /* ResetPasswordView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -335,9 +350,13 @@
 				0294D4522B09338F00D118BA /* SearchView.swift in Sources */,
 				0294D4502B09336400D118BA /* FeedView.swift in Sources */,
 				027D1F1D2B0AF14500D516B3 /* PostGridView.swift in Sources */,
+				02651B6D2B100000006B5E87 /* RegistrationView.swift in Sources */,
+				02651B732B10068B006B5E87 /* CustomTextField.swift in Sources */,
+				02651B752B10069F006B5E87 /* CustomSecuredField.swift in Sources */,
 				0294D42C2B09308800D118BA /* InstagramSwiftUITutorialApp.swift in Sources */,
 				0294D4402B09319200D118BA /* ContentView.swift in Sources */,
 				0294D44E2B09332B00D118BA /* MainTabView.swift in Sources */,
+				02651B6F2B100024006B5E87 /* ResetPasswordView.swift in Sources */,
 				0294D4582B0933C500D118BA /* UploadPostView.swift in Sources */,
 				0256BAF42B0EEDE100A0AE95 /* ImagePicker.swift in Sources */,
 				0287CB702B0E7C0100622872 /* ProfileHeaderView.swift in Sources */,
@@ -350,6 +369,7 @@
 				0287CB742B0E824700622872 /* ProfileActionButtonView.swift in Sources */,
 				027D1F212B0AF30F00D516B3 /* UserListView.swift in Sources */,
 				0287CB6E2B0E793300622872 /* NotificationCell.swift in Sources */,
+				02651B6B2B0FFFF0006B5E87 /* LoginView.swift in Sources */,
 				027D1F232B0AF7EF00D516B3 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
