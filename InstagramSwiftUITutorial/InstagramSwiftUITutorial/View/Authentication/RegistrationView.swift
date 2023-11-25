@@ -91,7 +91,8 @@ struct RegistrationView: View {
                 }
                 //MARK: - sign In Button
                 Button(action: {
-                    viewModel.register()
+                    viewModel.register(withEmail: email, password: password,
+                                       image: selectedImage, fullname: fullname, username: username)
                 }, label: {
                     Text("Sign Up")
                         .font(.headline)

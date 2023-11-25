@@ -12,6 +12,7 @@ struct SearchView: View {
 
     @State var searchText = ""
     @State var inSearchMode = false
+    @ObservedObject var viewModel = SearchViewModel()
 
     var body: some View {
         ScrollView {
@@ -23,7 +24,7 @@ struct SearchView: View {
             //MARK: - GRID VIEW- USER- LISTVIEW
             ZStack {
                 if inSearchMode {
-                    UserListView()
+                    UserListView(viewModel: viewModel)
                 } else {
                     PostGridView()
                 }
